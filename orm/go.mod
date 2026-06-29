@@ -1,21 +1,21 @@
 module github.com/cosmos/cosmos-sdk/orm
 
-go 1.18
+go 1.25
 
 require (
 	cosmossdk.io/errors v1.0.0-beta.7
 	github.com/cosmos/cosmos-proto v1.0.0-alpha7
 	github.com/cosmos/cosmos-sdk/api v0.1.0
 	github.com/golang/mock v1.6.0
-	github.com/google/go-cmp v0.5.8
+	github.com/google/go-cmp v0.6.0
 	github.com/iancoleman/strcase v0.2.0
 	github.com/regen-network/gocuke v0.6.2
-	github.com/stretchr/testify v1.8.0
+	github.com/stretchr/testify v1.10.0
 	github.com/tendermint/tm-db v0.6.7
 	google.golang.org/grpc v1.48.0
 	google.golang.org/protobuf v1.28.1
 	gotest.tools/v3 v3.3.0
-	pgregory.net/rapid v0.4.8
+	pgregory.net/rapid v1.2.0
 )
 
 require (
@@ -36,7 +36,7 @@ require (
 	github.com/gogo/protobuf v1.3.2 // indirect
 	github.com/golang/glog v1.0.0 // indirect
 	github.com/golang/protobuf v1.5.2 // indirect
-	github.com/golang/snappy v0.0.4 // indirect
+	github.com/golang/snappy v1.0.0 // indirect
 	github.com/google/btree v1.0.1 // indirect
 	github.com/jmhodges/levigo v1.0.0 // indirect
 	github.com/klauspost/compress v1.15.1 // indirect
@@ -49,9 +49,9 @@ require (
 	github.com/rogpeppe/go-internal v1.8.1 // indirect
 	github.com/syndtr/goleveldb v1.0.1-0.20210819022825-2ae1ddf74ef7 // indirect
 	go.etcd.io/bbolt v1.3.6 // indirect
-	golang.org/x/net v0.0.0-20220617184016-355a448f1bc9 // indirect
-	golang.org/x/sys v0.0.0-20220702020025-31831981b65f // indirect
-	golang.org/x/text v0.3.7 // indirect
+	golang.org/x/net v0.41.0 // indirect
+	golang.org/x/sys v0.35.0 // indirect
+	golang.org/x/text v0.27.0 // indirect
 	google.golang.org/genproto v0.0.0-20220519153652-3a47de7e79bd // indirect
 	gopkg.in/check.v1 v1.0.0-20201130134442-10cb98267c6c // indirect
 	gopkg.in/yaml.v3 v3.0.1 // indirect
