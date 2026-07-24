@@ -1,19 +1,19 @@
 module github.com/cosmos/cosmos-sdk/orm
 
-go 1.18
+go 1.25.0
 
 require (
 	cosmossdk.io/errors v1.0.0-beta.7
 	github.com/cosmos/cosmos-proto v1.0.0-alpha7
 	github.com/cosmos/cosmos-sdk/api v0.1.0
 	github.com/golang/mock v1.6.0
-	github.com/google/go-cmp v0.5.8
+	github.com/google/go-cmp v0.7.0
 	github.com/iancoleman/strcase v0.2.0
 	github.com/regen-network/gocuke v0.6.2
-	github.com/stretchr/testify v1.8.0
+	github.com/stretchr/testify v1.11.1
 	github.com/tendermint/tm-db v0.6.7
 	google.golang.org/grpc v1.48.0
-	google.golang.org/protobuf v1.28.1
+	google.golang.org/protobuf v1.36.11
 	gotest.tools/v3 v3.3.0
 	pgregory.net/rapid v0.4.8
 )
@@ -21,7 +21,7 @@ require (
 require (
 	github.com/alecthomas/participle/v2 v2.0.0-alpha7 // indirect
 	github.com/cespare/xxhash v1.1.0 // indirect
-	github.com/cespare/xxhash/v2 v2.1.2 // indirect
+	github.com/cespare/xxhash/v2 v2.3.0 // indirect
 	github.com/cockroachdb/apd/v3 v3.1.0 // indirect
 	github.com/cosmos/gorocksdb v1.2.0 // indirect
 	github.com/cucumber/common/gherkin/go/v22 v22.0.0 // indirect
@@ -39,7 +39,7 @@ require (
 	github.com/golang/snappy v0.0.4 // indirect
 	github.com/google/btree v1.0.1 // indirect
 	github.com/jmhodges/levigo v1.0.0 // indirect
-	github.com/klauspost/compress v1.15.1 // indirect
+	github.com/klauspost/compress v1.19.1 // indirect
 	github.com/kr/pretty v0.3.0 // indirect
 	github.com/lib/pq v1.10.6 // indirect
 	github.com/onsi/ginkgo v1.16.4 // indirect
@@ -49,9 +49,9 @@ require (
 	github.com/rogpeppe/go-internal v1.8.1 // indirect
 	github.com/syndtr/goleveldb v1.0.1-0.20210819022825-2ae1ddf74ef7 // indirect
 	go.etcd.io/bbolt v1.3.6 // indirect
-	golang.org/x/net v0.0.0-20220617184016-355a448f1bc9 // indirect
-	golang.org/x/sys v0.0.0-20220702020025-31831981b65f // indirect
-	golang.org/x/text v0.3.7 // indirect
+	golang.org/x/net v0.57.0 // indirect
+	golang.org/x/sys v0.47.0 // indirect
+	golang.org/x/text v0.40.0 // indirect
 	google.golang.org/genproto v0.0.0-20220519153652-3a47de7e79bd // indirect
 	gopkg.in/check.v1 v1.0.0-20201130134442-10cb98267c6c // indirect
 	gopkg.in/yaml.v3 v3.0.1 // indirect
